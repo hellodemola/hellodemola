@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is an ammendment of the [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br>
+
+## Starter Base NextJs 13 bundle
+* Typescript
+* Tailwind
+* Eslint
+* Storybook
+* Jest - Testing
+* Husky - Precommit
+
+## Storybook
+```bash
+yarn storybook
+```
+
+## Test
+```bash
+yarn test
+```
 
 ## Getting Started
 
