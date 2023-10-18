@@ -29,10 +29,10 @@ export default async function Home() {
   const data = JSON.parse(file);
   const { home } = data;
   const products = [
-    { index: 1, company: "LetSheGo", project: "Transaction dashboard", sector: "Bank", partner: "Enyata" },
-    { index: 2, company: "Kappa", project: "Global Remittance solution", sector: "FinTech", partner: "Enyata" },
-    { index: 3, company: "AmelSusan", project: "Wholesaler website", sector: "Ecommerce", partner: null },
-      { index: 4, company: "Zhill System", project: "Training App", sector: "EduTech", partner: null }
+    { index: 1, company: "LetSheGo", project: "Transaction dashboard", sector: "Bank", partner: "Enyata", url: '#' },
+    { index: 2, company: "Kappa", project: "Global Remittance solution", sector: "FinTech", partner: "Enyata", url: 'https://www.kappapay.com/' },
+    { index: 3, company: "AmelSusan", project: "Wholesaler website", sector: "Ecommerce", partner: null, url: "https://www.amelsusanproducts.com/" },
+      { index: 4, company: "Zhill System", project: "Training App", sector: "EduTech", partner: null, url:"https://www.zhillsystems.com/" }
   ]
 
   return (
@@ -114,7 +114,8 @@ export default async function Home() {
       {products.map((each) => (
         <a
           key={each?.index}
-      href={`wee.com`}
+          href={each.url}
+          target='_blank'
       className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 my-4 w-full"
     >
       <div className="flex flex-col">
