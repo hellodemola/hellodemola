@@ -35,7 +35,7 @@ export default async function Home() {
     { index: 3, company: "AmelSusan", project: "AmelSusan", sector: "Ecommerce", partner: null, url: "https://www.amelsusanproducts.com/" },
     { index: 4, company: "Zhill System", project: "Zhill Systems", sector: "EduTech", partner: null, url: "https://www.zhillsystems.com/" },
     { index: 5, company: "Yousure", project: "Yousure", sector: "InsureTech", partner: null, url: "https://yousure.vercel.app/" },
-    { index: 6, company: "Coverk Property", project: "Covek Properties", sector: "Real Estate", partner: null, url: "https://www.covekproperties.com" };
+    { index: 6, company: "Coverk Property", project: "Covek Properties", sector: "Real Estate", partner: null, url: "https://www.covekproperties.com" },
   ]
 
   return (
