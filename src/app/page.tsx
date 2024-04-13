@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img_one from '../public/ademola.JPG';
+import img_one from '../public/ademola.jpg';
 import demola_listen from '../public/demola_listen.jpg';
 import img_three from '../public/demola_5.jpg';
 import img_four from '../public/demola_4.jpg';
