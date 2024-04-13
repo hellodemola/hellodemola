@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { IRootLayout } from '@/types/home.types'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const inter = Inter({ subsets: ['latin'], weight: ['400', '700', '500'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({children}: IRootLayout) {
           {children}
           </main>
       </body>
+      <GoogleAnalytics gaId="G-CDNJ9FFDYV" /> 
     </html>
   )
 }
