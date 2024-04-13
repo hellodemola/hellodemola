@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { IRootLayout } from '@/types/home.types'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'], weight: ['400', '700', '500'] })
 
 export const metadata: Metadata = {
   title: 'Ademola Onasoga | Hellodemola',

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import img_one from '../public/demola_1.jpg';
+import img_one from '../public/ademola.JPG';
 import demola_listen from '../public/demola_listen.jpg';
 import img_three from '../public/demola_5.jpg';
 import img_four from '../public/demola_4.jpg';
@@ -29,15 +29,17 @@ export default async function Home() {
   const data = JSON.parse(file);
   const { home } = data;
   const products = [
-    { index: 1, company: "LetSheGo", project: "Transaction dashboard", sector: "Bank", partner: "Enyata", url: '#' },
-    { index: 2, company: "Kappa", project: "Global Remittance solution", sector: "FinTech", partner: "Enyata", url: 'https://www.kappapay.com/' },
-    { index: 3, company: "AmelSusan", project: "Wholesaler website", sector: "Ecommerce", partner: null, url: "https://www.amelsusanproducts.com/" },
-      { index: 4, company: "Zhill System", project: "Training App", sector: "EduTech", partner: null, url:"https://www.zhillsystems.com/" }
+    { index: 1, company: "Jumpnpass", project: "Jumpnpass", sector: "Ecommerce", partner: "Enyata", url: 'https://app.jumpnpass.com' },
+    { index: 2, company: "Kappa", project: "KappaPay", sector: "FinTech", partner: "Enyata", url: 'https://www.kappapay.com/' },
+    { index: 3, company: "AmelSusan", project: "AmelSusan", sector: "Ecommerce", partner: null, url: "https://www.amelsusanproducts.com/" },
+    { index: 4, company: "Zhill System", project: "Zhill Systems", sector: "EduTech", partner: null, url: "https://www.zhillsystems.com/" },
+     { index: 5, company: "Yousure", project: "Yousure", sector: "InsureTech", partner: null, url:"https://yousure.vercel.app/" },
+       { index: 6, company: "Coverk Property", project: "Covek Properties", sector: "Real Estate", partner: null, url:"https://www.covekproperties.com" }
   ]
 
   return (
       <div>
-      <h1 className="text-[2.618rem]">{home.introduction_name} 🙌</h1>
+      <h1 className="text-[2.618rem] font-[500]">{home.introduction_name} 🙌</h1>
       <div className='my-4' />
       <p className="text-[1.618rem] leading-[2.618rem] my-6">
         {home.intro_role}
@@ -110,37 +112,74 @@ export default async function Home() {
 
 
       </div>
+      <h2 className='font-[700] text-[1.5em]'>Curated works</h2>
       <p className="text-[1rem] my-6">{home.career}</p>
+      <div className='md:grid grid-cols-2 gap-3'>
       {products.map((each) => (
         <a
           key={each?.index}
           href={each.url}
           target='_blank'
-      className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 my-4 w-full"
+      className="border border-neutral-200 dark:border-neutral-700 bg-neutral-50  dark:bg-neutral-800 rounded flex items-center justify-between px-3 py-4 my-0 w-full"
     >
       <div className="flex flex-col">
-        <p className="font-bold text-neutral-900 dark:text-neutral-100">
+        <p className="font-[700] text-neutral-900 dark:text-neutral-100">
          {each.project}
             </p>
-            <p>{each.sector}</p>
+            <p className='text-[12px]'>{each.sector}</p>
         {/* <ViewCounter allViews={allViews} slug={slug} trackView={false} /> */}
       </div>
           <div className="text-neutral-700 dark:text-neutral-300">
 
-        {/* <ArrowIcon /> */}
+        <ArrowIcon />
       </div>
     </a>
-        ))}
-      <p className="text-[1rem] my-6">{home.contribution}</p>
-      <a
-            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+      ))}
+        </div>
+      
+      <div className='my-6'>
+        <h2 className='font-[700] text-[1.5em] my-2'>I am social</h2>
+        <p className="text-[1rem] my-6">{home.contribution}</p>
+        <div className='my-3 md:flex gap-6'>
+          <a
+            className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/hellodemola"
           >
+            
+            <span className="h-7 ml-2">Twitter</span>
             <ArrowIcon />
-            <p className="h-7 ml-2">follow me</p>
           </a>
+
+          <a
+            className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://linkedIn.com/in/hellodemola"
+          >
+            
+            <span className="h-7 ml-2">LinkedIn</span>
+            <ArrowIcon />
+          </a>
+
+          <a
+            className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.youtube.com/@hellodemola3958"
+          >
+            
+            <span className="h-7 ml-2">YouTube</span>
+            <ArrowIcon />
+          </a>
+
+
+
+        </div>
+        
+      </div>
+      
       </div>
   )
 }
