@@ -114,8 +114,8 @@ export default async function Home() {
 
       </div>
       <h2 className='font-[700] text-[1.5em]'>Curated works</h2>
-      <p className="text-[1rem] my-6">{home.career}</p>
-      <div className='md:grid grid-cols-2 gap-3'>
+      <p className="md:text-[1rem] text-[0.8rem] my-6">{home.career}</p>
+      <div className='md:grid my-2 grid-cols-2 gap-3'>
       {products.map((each) => (
         <a
           key={each?.index}
@@ -138,10 +138,10 @@ export default async function Home() {
       ))}
         </div>
       
-      <div className='my-6'>
+      <div className='my-2'>
         <h2 className='font-[700] text-[1.5em] my-2'>I am social</h2>
         <p className="text-[1rem] my-6">{home.contribution}</p>
-        <div className='my-3 md:flex gap-6'>
+        <div className='my-3 flex gap-6'>
           <a
             className="flex items-center gap-2 hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
