@@ -1,11 +1,49 @@
 {
-    "home":
-    {
-    "introduction_name": "Hello, I am 'Demo la!",
-    "intro_role": "I do frontend engineering and I love building products. I previously worked as Engineering Manager at Enyata. I am Product Engineer at",
-    "intro_role_2": ", where I help improve product delivery pipeline.",
-    "company": "Jumpnpass",
-    "company_url":"https://app.jumpnpass.com/",
-    "career": "Over the past decade, I have helped built interesting products across vast industries. Diverse use cases from FinTech, Remittance system, Healthcare, Ecommerce to Bus Raid Transit Scheduling. I worked on these curated projects as a team member and some as a solo contributor:",
-    "contribution": "I have mentored developers and continue to contribute to the dev community online via my youTube Channel, articles and through the Enyata start-up bootcamp. Connect with me on:"
-}}
+    "home": {
+        "introduction_name": "Hello, I am 'Demo la!",
+        "intro_role": "I do frontend engineering and I love building products. I previously worked as Engineering Manager at Enyata. I am Software Engineer at",
+        "intro_role_2": ", where I help create software products.",
+        "company": "GreyInvent",
+        "company_url": "https://greyinvent.com/",
+        "career": "Over the past decade, I have helped built interesting products across vast industries. Diverse use cases from FinTech, Remittance system, Healthcare, Ecommerce to Bus Raid Transit Scheduling. These are selected projects I worked on:",
+        "contribution": "I have mentored developers and continue to contribute to the dev community online via my youTube Channel, articles and through the Enyata start-up bootcamp. Connect with me on:",
+        "service": "What I do",
+        "serviceSubtitle": "I partner with founders, startups, and teams to design, build, and scale modern web and mobile app products.",
+        "services": [
+            {
+                "title": "Frontend Engineering & Architecture",
+                "jobs": [
+                    "React",
+                    "Next.js",
+                    "React Native",
+                    "Expo",
+                    "IOS & Android",
+                    "TypeScript",
+                    "performance optimization",
+                    "scalable UI systems"
+                ]
+            },
+            {
+                "title": "Product Engineering",
+                "jobs": [
+                    "Turning business requirements into production-ready features with clean, maintainable code."
+                ]
+            },
+            {
+                "title": "Technical Consulting",
+                "jobs": [
+                    "Code reviews",
+                    "architecture decisions",
+                    "performance audits",
+                    " frontend strategy"
+                ]
+            },
+            {
+                "title": "Team Support & Mentorship",
+                "jobs": [
+                    "Supporting developers through guidance, reviews, and best practices."
+                ]
+            }
+        ]
+    }
+}
