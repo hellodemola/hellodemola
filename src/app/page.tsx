@@ -36,9 +36,9 @@ export default async function Home() {
       index: 1,
       company: "Zeal",
       project: "Zeal Open University",
-      sector: "Health Tech",
+      sector: "Education | Tech",
       partner: null,
-      url: "https://zeal-frontend.vercel.app/",
+      url: " https://zealopen.university/",
     },
     {
       index: 2,
