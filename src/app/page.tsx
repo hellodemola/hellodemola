@@ -48,26 +48,6 @@ const products = [
     tags: ['React', 'Next.js', 'TypeScript'],
   },
   {
-    index: 3,
-    company: 'Brand-Co',
-    project: 'Brand-Co',
-    sector: 'Retail',
-    url: 'https://www.brand-co.com/',
-    description:
-      'A premium African retail group distributing global brands like Adidas, Skechers, and Reebok across 18+ locations in Nigeria and Ghana. Translated a bold visual identity into a performant, responsive Next.js interface that serves both consumers and prospective global brand partners.',
-    tags: ['Next.js', 'TypeScript', 'Animation'],
-  },
-  {
-    index: 4,
-    company: '91 Pay',
-    project: '91 Pay',
-    sector: 'FinTech · Payments',
-    url: 'https://91-payments.com/',
-    description:
-      'A payment platform built for fast, reliable digital transactions. Led the frontend engineering of the product interface, integrating with payment APIs and building a trust-focused UI that handles sensitive financial flows — with strong emphasis on performance, error handling, and cross-device compatibility.',
-    tags: ['React', 'TypeScript', 'API Integration'],
-  },
-  {
     index: 5,
     company: 'Zhill',
     project: 'Zhill Systems',
