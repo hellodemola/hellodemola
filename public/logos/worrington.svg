@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 286" role="img" aria-label="Worrington &amp; Co.">
+  <!-- Mark and lockup from the Worrington site's Logo component (horizontal). -->
+  <polygon points="0,46 60,3 65,244 4,207" fill="#213b63"/>
+  <polygon points="69,49 133,90 134,250 71,286" fill="#7f7f7f"/>
+  <polygon points="141,0 202,43 198,206 136,247" fill="#213b63"/>
+  <text x="270" y="150" textLength="570" lengthAdjust="spacingAndGlyphs" font-family="Raleway, 'Helvetica Neue', Arial, sans-serif" font-weight="300" font-size="92" fill="#2f6aa3">WORRINGTON</text>
+  <rect x="270" y="176" width="570" height="4" fill="#12352a" opacity="0.8"/>
+  <text x="555" y="236" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="44" fill="#213b63">we put you first</text>
+</svg>

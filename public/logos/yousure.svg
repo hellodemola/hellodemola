@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 64" role="img" aria-label="Yousure">
+  <!-- Yousure's app icon (website/app/icon.svg) beside the wordmark. -->
+  <rect width="64" height="64" rx="14" fill="#12352a"/>
+  <path d="M19 16 L32 33 L45 16 M32 33 L32 49" fill="none" stroke="#d08c3c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="48" textLength="240" lengthAdjust="spacingAndGlyphs" font-family="'Bricolage Grotesque', 'Helvetica Neue', Arial, sans-serif" font-weight="700" font-size="50" fill="#12352a">Yousure</text>
+</svg>
