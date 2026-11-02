@@ -20,10 +20,10 @@ Formerly engineering manager at Enyata, where I also mentored developers through
 | --- | --- | --- |
 | [Yousure](https://yousure.ng) | Health insurance marketplace, plus [Yousure Brokers](https://brokers.yousure.ng), a SaaS workspace for insurance brokers | Co-founder · product and engineering |
 | [KJB Professional Services](https://kjb.ng) | Tax, audit and advisory firm: 2026 tax calculators, tax-reform guides, booking | Design and full build |
+| [Zhill Systems](https://www.zhillsystems.com/) | Consulting, training and talent firm: programme catalogue, live training dates from Contentful | Design and full build |
 | [Worrington & Co.](https://worrington.com) | Business law firm in Lagos and London | Design and full build |
 | [Zeal Open University](https://www.zealopen.university/) | Online university with accredited degrees | Frontend engineering |
 | [ABF Accounting](https://abfaccounting.com) | Online accounting for UK small businesses | Frontend engineering |
-| [Zhill Systems](https://www.zhillsystems.com/) | Consulting, training and talent platform | Web interface engineering |
 | [Covek Properties](https://www.covekproperties.com) | Lagos real estate: search, listings and lead capture | Full web build |
 
 Case studies for each are at [hellodemola.com/work](https://hellodemola.com/work).

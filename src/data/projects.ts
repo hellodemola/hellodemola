@@ -85,6 +85,36 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "zhill-systems",
+    name: "Zhill Systems",
+    industry: "Consulting and training",
+    location: "USA, UK & Nigeria",
+    summary:
+      "The new zhillsystems.com for a consulting, training and talent firm that has trained over 3,000 professionals across 13 countries: 42 programmes, live training dates, and clear routes to enrol.",
+    url: "https://www.zhillsystems.com/",
+    urlLabel: "zhillsystems.com",
+    image: "/work/zhill.jpg",
+    logo: "/logos/zhill.png",
+    mobile: "/work/mobile/zhill.jpg",
+    role: "Design and full build",
+    stack: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis", "Contentful", "Vercel"],
+    brief: [
+      "Zhill serves two audiences at once: organisations buying agile and digital transformation, and professionals growing their careers through accredited training.",
+      "The firm had outgrown its previous site, which I also worked on. It needed a new front door that presents the whole business clearly, without disrupting the accounts, payments and training schedule already running behind it.",
+    ],
+    built: [
+      { title: "A training catalogue people can navigate", body: "42 programmes across 13 tracks, from agile and project management to data, AI and energy, each with its own page, course overview and credentials, plus a synopsis download where one is available." },
+      { title: "Training dates from Contentful", body: "The upcoming trainings page reads the same Contentful entries the team already uses, showing dates, times, prices, early-bird offers and payment links. New dates appear without a developer or a redeploy." },
+      { title: "Services and credibility", body: "Pages for the firm’s services, accreditations and technology partners, guides to comparing certifications, and links to verify credentials on each issuing body’s registry." },
+      { title: "Enquiries that arrive with context", body: "“Ask about the next cohort” and synopsis requests open a contact form already filled in with the topic and course, with WhatsApp one tap away." },
+      { title: "A careful move to the new site", body: "The live domains moved across with redirects from old links. Pages the new site doesn’t replace, including accounts and the blog, keep working on the previous app." },
+      { title: "Motion and share cards", body: "An animated hero and smooth scrolling that give the brand presence, and share images for the site and every programme." },
+    ],
+    outcome: [
+      "One clear site for enterprise clients and individual learners, live at zhillsystems.com, where the team can publish new training dates themselves.",
+    ],
+  },
+  {
     slug: "worrington",
     name: "Worrington & Co.",
     industry: "Legal",
@@ -164,33 +194,6 @@ export const PROJECTS: Project[] = [
     ],
     outcome: [
       "A responsive marketing and sales site where pricing is clear and every page leads to a quote, a purchase or a call.",
-    ],
-  },
-  {
-    slug: "zhill-systems",
-    name: "Zhill Systems",
-    industry: "EdTech",
-    location: "USA, UK & Nigeria",
-    summary:
-      "The platform for a consulting, training and talent firm that has trained over 3,000 professionals across 13 countries.",
-    url: "https://www.zhillsystems.com/",
-    urlLabel: "zhillsystems.com",
-    image: "/work/zhill.jpg",
-    logo: "/logos/zhill.png",
-    role: "Web interface engineering",
-    stack: ["React", "TypeScript", "Node.js"],
-    brief: [
-      "Zhill serves two audiences at once: organisations buying agile and digital transformation, and individuals growing their careers through training and certification.",
-      "The site needed to serve both, plus the people running it, across several user roles.",
-    ],
-    built: [
-      { title: "Education and events", body: "Upcoming training, past events, credential verification, and role and certification comparisons." },
-      { title: "Talent and careers", body: "Career listings, a job gateway to popular boards, and a career advisor for people changing direction." },
-      { title: "Accounts and roles", body: "Sign-in and onboarding, and reusable UI components for complex data across administrator and member roles." },
-      { title: "Enterprise tools", body: "An Enterprise Agile Health Check that organisations use to gauge their agile maturity." },
-    ],
-    outcome: [
-      "One product serving enterprise clients and individual learners, with interface components that scale as new programmes are added.",
     ],
   },
   {

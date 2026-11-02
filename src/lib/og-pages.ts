@@ -17,7 +17,7 @@ export const OG_PAGES = {
     eyebrow: "Selected work",
     title: "Live products, real businesses",
     accent: "real",
-    description: "Case studies: Yousure, KJB Professional Services, Worrington & Co., Zeal Open University, ABF Accounting, Zhill Systems and Covek Properties.",
+    description: "Case studies: Yousure, KJB Professional Services, Zhill Systems, Worrington & Co., Zeal Open University, ABF Accounting and Covek Properties.",
     image: "/work/yousure.jpg",
     imagePosition: "top",
   },
