@@ -85,6 +85,40 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "kcp",
+    name: "KCP",
+    industry: "Accounting and advisory",
+    location: "Nigeria & United Kingdom",
+    summary:
+      "The new kcp.com.ng for a firm of Chartered Accountants and Business Advisers: one site serving Nigeria and the UK, five practice areas, an academy, and 2026 Nigerian tax calculators.",
+    url: "https://kcp.com.ng",
+    urlLabel: "kcp.com.ng",
+    image: "/work/kcp.jpg",
+    logo: "/logos/kcp.png",
+    mobile: "/work/mobile/kcp.jpg",
+    gallery: [
+      { src: "/work/kcp-calculator.jpg", caption: "PAYE, VAT and company tax calculators under the Nigeria Tax Act 2025" },
+      { src: "/work/kcp-academy.jpg", caption: "KCP Academy, the firm’s learning and professional development arm" },
+    ],
+    role: "Design and full build",
+    stack: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS v4", "SCSS", "Vitest", "Vercel"],
+    brief: [
+      "KCP (Adekunle Cole & Co.) is an independent firm of Chartered Accountants and Business Advisers based in Lagos, offering audit, forensics, tax, regulatory, financial reporting, consulting and training. The firm was moving off its old WordPress site, and it now serves clients in the United Kingdom as well as Nigeria.",
+      "It needed one site that presents five practice areas clearly to CFOs and business owners in both markets, without maintaining two separate websites.",
+    ],
+    built: [
+      { title: "One site, two markets", body: "Nigeria and UK sites at /ng and /uk from a single codebase, with a country switcher in the header. Shared copy lives in one place; only what genuinely differs, such as offices, contact details, accreditations, vacancies and some articles, changes per country. Old links redirect visitors to the site they last used." },
+      { title: "Five practice areas, in depth", body: "Audit, Assurance & Forensics; Tax; Regulatory & Corporate Services; Financial Reporting & Advisory; and Consulting & Training, each broken down into its specific services, plus an industries page covering sectors from fintech and microfinance to energy and agribusiness." },
+      { title: "2026 tax calculators", body: "PAYE, VAT and company tax calculators under the Nigeria Tax Act 2025, with the new personal income tax bands, rent relief and the 4% development levy, each followed by a prompt to speak to the tax team." },
+      { title: "KCP Academy", body: "A section for the firm’s training arm: who it serves, learning areas and levels, corporate training, and links through to the learning platform where people register and study." },
+      { title: "A firm people can get to know", body: "About, history, values and team profiles, events, careers with open vacancies, and an insights library on tax and reporting." },
+      { title: "Share cards on every page", body: "Each page has its own social image in KCP’s colours with its headline, so links shared on WhatsApp and LinkedIn explain themselves." },
+    ],
+    outcome: [
+      "A modern site for both of KCP’s markets, live at kcp.com.ng, that explains everything the firm does and gives visitors a reason to get in touch, starting with their 2026 tax.",
+    ],
+  },
+  {
     slug: "zhill-systems",
     name: "Zhill Systems",
     industry: "Consulting and training",
