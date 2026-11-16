@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/og-pages";
 
 export const metadata: Metadata = pageMetadata(
   "Work",
-  "Case studies: websites and web products for Worrington & Co., Zeal Open University, ABF Accounting, Zhill Systems and Covek Properties.",
+  "Case studies: websites and web products for KJB Professional Services, Zhill Systems, Worrington & Co., Zeal Open University, ABF Accounting and Covek Properties.",
   { alternates: { canonical: "/work" }, openGraph: { url: "/work" } },
 );
 
