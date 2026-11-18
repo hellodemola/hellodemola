@@ -178,6 +178,35 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "levels-movement",
+    name: "Levels Movement",
+    industry: "Political campaign",
+    location: "Shomolu, Lagos",
+    summary:
+      "The campaign site for Amb. Olawale Sanni and the Levels Movement in Shomolu LGA: his story, his agenda, where to collect a PVC, and a way to join the movement.",
+    url: "https://levels-movement.vercel.app",
+    urlLabel: "levels-movement.vercel.app",
+    image: "/work/levels.jpg",
+    logo: "/logos/levels.svg",
+    mobile: "/work/mobile/levels.jpg",
+    role: "Design and full build",
+    stack: ["Next.js 15", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis", "Vercel"],
+    brief: [
+      "A local campaign has to do two jobs at once: tell people who the candidate is, and get them to act before the deadlines pass.",
+      "The site needed to make a strong first impression on a phone, stay within the campaign’s colours, and send visitors towards the two actions that matter: collecting a PVC and joining the movement.",
+    ],
+    built: [
+      { title: "An editorial hero", body: "A bold opening built around the candidate, the slogan and the campaign’s colours." },
+      { title: "A journey timeline", body: "His path from 2002 to 2026 as a pinned section that scrolls sideways, with infographics for each stage of learning, business and service." },
+      { title: "PVC collection centres", body: "A list of collection centres where a single tap opens directions in Google Maps." },
+      { title: "The agenda and the ground game", body: "Agenda pillars, plus a gallery of rallies, town halls and visits across Shomolu, Bariga and Gbagada." },
+      { title: "Join the movement", body: "A short form that asks where you vote and reminds you when PVC collection starts." },
+    ],
+    outcome: [
+      "A campaign site that introduces the candidate on any phone and sends every visitor to a PVC centre or the join form. Saving sign-ups to a database is the next step.",
+    ],
+  },
+  {
     slug: "zeal-open-university",
     name: "Zeal Open University",
     industry: "EdTech",

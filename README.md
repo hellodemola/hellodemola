@@ -26,7 +26,7 @@ Formerly engineering manager at Enyata, where I also mentored developers through
 | [ABF Accounting](https://abfaccounting.com) | Online accounting for UK small businesses | Frontend engineering |
 | [Covek Properties](https://www.covekproperties.com) | Lagos real estate: search, listings and lead capture | Full web build |
 
-Case studies for each are at [hellodemola.com/work](https://hellodemola.com/work).
+Case studies for each are at [hellodemola.com/work](https://hellodemola.com/work), and I write about AI for Nigerian businesses at [hellodemola.com/insights](https://hellodemola.com/insights).
 
 ## Toolkit
 
@@ -43,6 +43,6 @@ npm install
 npm run dev   # http://localhost:3000
 ```
 
-- Content lives in `src/data/`: `site.ts` (name, links, booking), `projects.ts` (case studies) and `services.ts`.
+- Content lives in `src/data/`: `site.ts` (name, links, booking), `projects.ts` (case studies), `lab.ts` (work in progress), `articles.ts` (insights) and `services.ts`.
 - Share images are generated per page from `src/lib/og-card.tsx` and `src/lib/og-pages.ts`.
 - Screenshots of projects are in `public/work/` (desktop) and `public/work/mobile/`.

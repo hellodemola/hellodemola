@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { ArticleCard } from "@/components/ArticleParts";
 import BookButton from "@/components/BookButton";
 import { buttonClass } from "@/components/button";
 import LogoMarquee from "@/components/motion/LogoMarquee";
@@ -10,6 +11,7 @@ import Reveal from "@/components/motion/Reveal";
 import ScrollText from "@/components/motion/ScrollText";
 import SplitHeading from "@/components/motion/SplitHeading";
 import { Accent, Container, Eyebrow, ProjectCard, SectionHeading } from "@/components/ui";
+import { sortedArticles } from "@/data/articles";
 import { PROJECTS } from "@/data/projects";
 import { AUDIENCES, PROCESS, SERVICES } from "@/data/services";
 import { SITE } from "@/data/site";
@@ -259,6 +261,31 @@ export default function HomePage() {
               </li>
             ))}
           </ol>
+        </Container>
+      </section>
+
+      {/* Latest insights */}
+      <section className="border-t border-line py-24 sm:py-32">
+        <Container>
+          <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <SectionHeading
+              eyebrow="Insights"
+              title={<>AI for Nigerian businesses, <Accent>minus the hype</Accent></>}
+              intro="Practical guides on where AI saves time and money, and what it means for the economy."
+            />
+            <Link href="/insights" className="shrink-0 text-sm font-medium text-muted hover:text-ink">
+              All insights →
+            </Link>
+          </div>
+          <div className="mt-14 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+            {sortedArticles()
+              .slice(0, 3)
+              .map((a, i) => (
+                <Reveal key={a.slug} delay={i * 0.08}>
+                  <ArticleCard article={a} />
+                </Reveal>
+              ))}
+          </div>
         </Container>
       </section>
 

@@ -26,9 +26,12 @@ export const SOCIALS = [
   { label: "GitHub", href: "https://github.com/hellodemola" },
 ] as const;
 
+// /lab (work in progress) is left out on purpose: it is reachable from the
+// sitemap and by link, not from the header or footer.
 export const NAV = [
   { href: "/work", label: "Work" },
   { href: "/services", label: "Services" },
+  { href: "/insights", label: "Insights" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ] as const;

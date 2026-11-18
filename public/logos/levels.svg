@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Levels Movement" width="300" height="64">
+  <!-- Levels Movement's site icon (levels-movement.vercel.app/icon.svg) beside the wordmark. -->
+  <rect width="64" height="64" rx="14" fill="#04301a"/>
+  <g transform="translate(12 12)">
+    <path d="M4 4h8v24h20v8H4z" fill="#ffffff"/>
+    <path d="M16 4h7v17h13v7H16z" fill="#2aa9e0"/>
+  </g>
+  <text x="80" y="48" textLength="210" lengthAdjust="spacingAndGlyphs" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="50" fill="#04301a">LEVELS</text>
+</svg>

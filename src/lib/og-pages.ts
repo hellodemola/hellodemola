@@ -17,8 +17,16 @@ export const OG_PAGES = {
     eyebrow: "Selected work",
     title: "Live products, real businesses",
     accent: "real",
-    description: "Case studies: Yousure, KJB Professional Services, Zhill Systems, Worrington & Co., Zeal Open University, ABF Accounting and Covek Properties.",
+    description: "Case studies: Yousure, KJB Professional Services, KCP, Zhill Systems, Worrington & Co., Levels Movement, Zeal Open University, ABF Accounting and Covek Properties.",
     image: "/work/yousure.jpg",
+    imagePosition: "top",
+  },
+  lab: {
+    eyebrow: "Lab",
+    title: "What’s on the workbench right now",
+    accent: "right now",
+    description: "Projects in progress: Tiwa, the Zeal Open University redesign, Capitano Nigeria, Imaginations School PTA, the Onasoga Family, UNILAG Business Education Alumni and Amel Susan, with what’s done and what’s left.",
+    image: "/work/lab/tiwa.jpg",
     imagePosition: "top",
   },
   services: {
@@ -37,6 +45,13 @@ export const OG_PAGES = {
     image: "/images/portrait-mono.jpg",
     imagePosition: "center 20%",
     layout: "portrait",
+  },
+  insights: {
+    eyebrow: "Insights",
+    title: "AI for Nigerian businesses, minus the hype",
+    accent: "minus the hype",
+    description: "Practical guides on where AI saves time and money for small businesses in Nigeria, and what it means for the economy.",
+    image: "/insights/lagos-aerial.jpg",
   },
   contact: {
     eyebrow: "Book a call",

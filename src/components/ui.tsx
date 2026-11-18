@@ -44,9 +44,20 @@ export function Accent({ children }: { children: ReactNode }) {
   return <span className="font-serif font-normal text-accent italic">{children}</span>;
 }
 
-export function ProjectCard({ project, index, large = false }: { project: Project; index: number; large?: boolean }) {
+export function ProjectCard({
+  project,
+  index,
+  large = false,
+  base = "/work",
+}: {
+  project: Omit<Project, "logo"> & { status?: string };
+  index: number;
+  large?: boolean;
+  /** The section the card links into. */
+  base?: string;
+}) {
   return (
-    <Link href={`/work/${project.slug}`} className="group block">
+    <Link href={`${base}/${project.slug}`} className="group block">
       <CursorLabel label="View case study">
         <div className="overflow-hidden rounded-2xl bg-[radial-gradient(120%_90%_at_50%_0%,#ffffff_0%,var(--color-paper-2)_70%)] px-[9%] pt-[9%] pb-[7%] ring-1 ring-line transition-shadow duration-700 group-hover:shadow-2xl group-hover:shadow-ink/10">
           <ScrollTilt>
@@ -64,6 +75,7 @@ export function ProjectCard({ project, index, large = false }: { project: Projec
         <div>
           <p className="font-mono text-xs tracking-widest text-muted uppercase">
             {String(index + 1).padStart(2, "0")} · {project.industry}
+            {project.status && ` · ${project.status}`}
           </p>
           <h3 className="mt-2 text-xl font-medium tracking-tight sm:text-2xl">{project.name}</h3>
           <p className="mt-2 max-w-xl leading-relaxed text-muted">{project.summary}</p>

@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/og-pages";
 
 export const metadata: Metadata = pageMetadata(
   "Work",
-  "Case studies: websites and web products for KJB Professional Services, Zhill Systems, Worrington & Co., Zeal Open University, ABF Accounting and Covek Properties.",
+  "Case studies: websites and web products for Yousure, KJB Professional Services, KCP, Zhill Systems, Worrington & Co., Levels Movement, Zeal Open University, ABF Accounting and Covek Properties.",
   { alternates: { canonical: "/work" }, openGraph: { url: "/work" } },
 );
 
@@ -27,7 +27,7 @@ export default function WorkPage() {
             <ProjectCard key={p.slug} project={p} index={i} />
           ))}
           <div className="flex flex-col justify-center rounded-2xl border border-dashed border-line p-10">
-            <p className="font-mono text-xs tracking-widest text-muted uppercase">06 · Yours?</p>
+            <p className="font-mono text-xs tracking-widest text-muted uppercase">{String(PROJECTS.length + 1).padStart(2, "0")} · Yours?</p>
             <h2 className="mt-3 text-2xl font-medium tracking-tight">Your product could be next</h2>
             <p className="mt-3 leading-relaxed text-muted">Tell me what you’re building. In 30 minutes you’ll know whether I’m the right fit.</p>
             <BookButton className="mt-6 self-start" />

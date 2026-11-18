@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -14,6 +15,9 @@ const instrument = Instrument_Serif({
   weight: "400",
   style: ["normal", "italic"],
 });
+
+// Google Analytics property carried over from the previous hellodemola.com.
+const GA_ID = "G-CDNJ9FFDYV";
 
 const title = `${SITE.name}, ${SITE.role}`;
 
@@ -50,6 +54,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <main id="main" className="flex-1">{children}</main>
         <Footer />
       </body>
+      <GoogleAnalytics gaId={GA_ID} />
     </html>
   );
 }

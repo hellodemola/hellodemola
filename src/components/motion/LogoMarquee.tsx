@@ -9,7 +9,7 @@ export default function LogoMarquee() {
   const row = (copy: boolean) => (
     <ul className="flex shrink-0 items-center gap-16 pr-16 sm:gap-24 sm:pr-24" aria-hidden={copy || undefined}>
       {PROJECTS.map((p) => (
-        <li key={p.slug}>
+        <li key={p.slug} className="shrink-0">
           <Link
             href={`/work/${p.slug}`}
             className="group flex h-14 items-center"
@@ -21,7 +21,7 @@ export default function LogoMarquee() {
               alt={copy ? "" : p.name}
               width={180}
               height={56}
-              className="max-h-12 w-auto object-contain opacity-55 mix-blend-multiply grayscale transition duration-500 group-hover:opacity-100 group-hover:grayscale-0 sm:max-h-14"
+              className="h-10 w-auto max-w-[190px] object-contain opacity-55 mix-blend-multiply grayscale transition duration-500 group-hover:opacity-100 group-hover:grayscale-0 sm:h-12"
             />
           </Link>
         </li>
