@@ -149,6 +149,37 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "flexipower",
+    name: "Flexipower",
+    industry: "Solar energy",
+    location: "Lagos, Nigeria",
+    summary:
+      "The new flexipower.com.ng for a solar and hybrid power company: a solar builder that sizes a system from your appliances, a marketplace for packages and parts, and checkout that lets you pay upfront, in instalments or as a service.",
+    url: "https://www.flexipower.com.ng/",
+    urlLabel: "flexipower.com.ng",
+    image: "/work/flexipower.jpg",
+    logo: "/logos/flexipower.png",
+    mobile: "/work/mobile/flexipower.jpg",
+    gallery: [{ src: "/work/flexipower-builder.jpg", caption: "The Solar Builder: pick a home or business, adjust appliances and backup hours, and get an inverter, battery and panel size" }],
+    role: "Design and full build",
+    stack: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis", "Firebase Auth", "Firestore", "Paystack", "Resend", "Vercel"],
+    brief: [
+      "Flexipower designs and installs solar PV, hybrid inverters and lithium storage for homes and businesses in Lagos, Ogun and the FCT. Most buyers don’t know what size of system they need, and many can’t pay for one upfront.",
+      "The company needed a corporate site and a working shop in one: something that explains its services, sizes a system for each customer, and takes payment in whichever way suits them.",
+    ],
+    built: [
+      { title: "A solar builder", body: "Start from a mini flat, 3-bed flat, duplex, shop or small office, then adjust appliances, hours of use, location and backup time. The builder recommends an inverter, battery and panel array, and the result can be saved, downloaded or taken straight to checkout." },
+      { title: "A marketplace", body: "Ready-made packages from Starter to Business, and a store of inverters, batteries, panels and parts with stock levels, search and product pages." },
+      { title: "Paid your way", body: "Pay instantly by card, transfer or USSD through Paystack; spread the cost over 3, 6 or 12 months; or apply for Energy-as-a-Service. Delivery fees and VAT are worked out by state, and the server re-prices every order rather than trusting the browser." },
+      { title: "Accounts, orders and emails", body: "Customers sign in to see their orders, and guest orders are linked to their account later. When a sale is paid, the customer and the Flexipower team each get a branded email." },
+      { title: "An admin for the team", body: "Orders by payment route, Energy-as-a-Service site details, and product and package management with prices, stock and visibility, so the team runs the shop without a developer." },
+      { title: "Help, content and share cards", body: "A chat button on every page that opens WhatsApp or live chat, a blog on solar in Nigeria, and a share image for each page in Flexipower’s colours." },
+    ],
+    outcome: [
+      "A corporate site and online shop in one, live at flexipower.com.ng, where a customer can size a system, choose how to pay and order without leaving the page.",
+    ],
+  },
+  {
     slug: "worrington",
     name: "Worrington & Co.",
     industry: "Legal",
